@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <FrameLayout
+            android:paddingLeft="10dp"
+            android:id="@+id/back_number_pwd_view"
+            android:layout_width="60dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/base_arrow_left" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="输入密码"
+            android:textColor="@color/base_gray_4"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View style="@style/baselib_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/number_one_number_pwd_view"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_gray_border_no_right"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:textColor="@color/base_gray_3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/number_two_number_pwd_view"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_gray_border_no_right"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:textColor="@color/base_gray_3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/number_three_number_pwd_view"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_gray_border_no_right"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:textColor="@color/base_gray_3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/number_four_number_pwd_view"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_gray_border_no_right"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:textColor="@color/base_gray_3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/number_five_number_pwd_view"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_gray_border_no_right"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:textColor="@color/base_gray_3"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/number_six_number_pwd_view"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/base_gray_border"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:textColor="@color/base_gray_3"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/forget_pwd_number_pwd_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="忘记密码?"
+            android:textColor="@color/base_blue" />
+    </LinearLayout>
+
+    <View
+        style="@style/baselib_line"
+        android:layout_marginTop="20dp" />
+
+    <com.base.lib.view.NoScrollGridView
+        android:id="@+id/gv_number_pwd_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_gray_2"
+        android:horizontalSpacing="1px"
+        android:numColumns="3"
+        android:verticalSpacing="1px" />
+
+    <View style="@style/baselib_line"/>
+</LinearLayout>

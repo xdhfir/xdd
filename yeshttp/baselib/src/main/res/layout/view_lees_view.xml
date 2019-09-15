@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--LOADING 页面-->
+    <FrameLayout
+        android:id="@+id/loading_lees_view"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:indeterminateDrawable="@xml/loading_circle_progressbar_back"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:indeterminateBehavior="repeat" />
+    </FrameLayout>
+    <!--ERROR 页面-->
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/error_lees_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:textColor="#ffffff"
+                android:background="@drawable/red_or_reddeep_selector"
+                android:id="@+id/bt_error_lees_view"
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="加载失败,点击重试"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </FrameLayout>
+    <!--EMPTY 页面-->
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/empty_lees_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+    </FrameLayout>
+    <!--SUCCESS 页面-->
+    <FrameLayout
+        android:id="@+id/success_lees_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="135dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/main_pop"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="49dp">
+        <ImageView
+            android:layout_marginLeft="11dp"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+        <TextView
+            android:textSize="20sp"
+            android:text="主页"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="#202020"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eaeaea"
+        />
+    <LinearLayout
+        android:id="@+id/me_pop"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="49dp">
+        <ImageView
+            android:layout_marginLeft="11dp"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="账户"
+            android:textColor="#202020"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eaeaea"
+        />
+    <LinearLayout
+        android:id="@+id/more_pop"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="49dp">
+        <ImageView
+            android:layout_marginLeft="11dp"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="更多"
+            android:textColor="#202020"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eaeaea"
+        />
+    <LinearLayout
+        android:id="@+id/help_pop"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_marginLeft="11dp"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:textColor="#202020"
+            android:text="帮助中心"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#eaeaea"
+        />
+    <LinearLayout
+        android:id="@+id/quit_pop"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_marginLeft="11dp"
+            android:layout_width="19dp"
+            android:layout_height="19dp" />
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="退出"
+            android:textColor="#202020"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true" android:drawable="@xml/ellipse_orange_20"/>
+    <item android:state_checked="false" android:drawable="@xml/ellipse_grayborder_20"/>
+    <item android:drawable="@xml/ellipse_grayborder_3"/>
+</selector>

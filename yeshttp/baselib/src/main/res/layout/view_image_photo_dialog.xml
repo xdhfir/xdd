@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@xml/ellipse_gray_10">
+    <TextView
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#302d2d"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="请通过相册/照相获取图片"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/album_dialog_yes_or_no_dialog"
+            android:background="@drawable/red_or_reddeep_selector"
+            android:textColor="#ffffff"
+            android:text="相册"
+            android:layout_width="70dp"
+            android:layout_height="30dp" />
+        <Button
+            android:id="@+id/photo_dialog_yes_or_no_dialog"
+            android:background="@drawable/red_or_reddeep_selector"
+            android:textColor="#ffffff"
+            android:text="照相"
+            android:layout_marginLeft="40dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</LinearLayout>

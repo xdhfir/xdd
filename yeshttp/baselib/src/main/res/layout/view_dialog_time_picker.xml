@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/title_dialog_time_picker"
+            android:textColor="@color/base_black"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="请选择面签时间"
+            android:textSize="14sp" />
+
+        <FrameLayout
+            android:id="@+id/ok_dialog_time_picker"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:textColor="@color/base_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="确定" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <View
+        style="@style/baselib_line"
+        android:background="@color/base_orange" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <DatePicker
+            android:id="@+id/date_pick_dialog_time_picker"
+            style="@android:style/Theme.Holo.Light"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:calendarViewShown="false" />
+
+        <NumberPicker
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"
+            style="@android:style/Theme.Holo.Light"
+            android:id="@+id/time_pick_dialog_time_picker"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+    </LinearLayout>
+</LinearLayout>

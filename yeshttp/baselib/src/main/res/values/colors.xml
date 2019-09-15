@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="base_orange">#ff6700</color>
+   <!--<color name="base_orange1">#d65802</color>-->
+   <color name="base_orange1">#ff6800</color>
+   <color name="base_white">#ffffff</color>
+   <color name="base_black_s">#333333</color>
+   <color name="base_black">#000000</color>
+   <color name="base_red">#ff0000</color>
+   <color name="base_gray_1">#f6f6f6</color>
+   <color name="pager_background">#f5f5f4</color>
+   <color name="base_gray_2">#ededed</color>
+   <!--<color name="base_gray_3">#8b8b8b</color>-->
+   <color name="base_gray_3">#b7b7b7</color>
+   <color name="base_gray_4">#808080</color>
+   <color name="base_transparent">#00000000</color>
+   <color name="base_blue">#3189fc</color>
+   <color name="base_yellow">#FBAC52</color>
+   <color name="base_sliver">#cccccc</color>
+   <color name="text_normal">#34393e</color>
+   <!-- <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="noBack">#00000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="line">#999999</color>
+    <color name="protocol_color">#4191ff</color>
+    <color name="gray_5">#80F79D5E</color>
+    <color name="gray_6">#fcd7bf</color>
+    <color name="item_title">#34393e</color>
+
+    <color name="nodeTextColor">#00bcb4</color>
+    <color name="text_sign">#34393e</color>
+    <color name="text_price">#ff6700</color>-->
+
+   <!--lockview-->
+   <color name="white">#FFFF</color>
+   <color name="pomegranate">#f4511e</color>
+   <!--bill-->
+   <color name="text_repay_bill">#a6a6a6</color>
+   <color name="text_status_overdue">#e10000</color>
+   <!--cashstaging-->
+   <color name="text_remind_select_cash">#666666</color>
+   <color name="text_remind_true_background_select_cash">#f5f5f4</color>
+   <color name="text_remind_false_background_select_cash">#fff0e6</color>
+</resources>
